@@ -1,0 +1,40 @@
+# Learning OS / Mastery OS Brand and Design Tokens
+
+Source of truth for the visual identity of Learning OS product deliverables. Taken directly from the working Mastery OS v2 prototype the user shared and approved as the house style. Use these tokens for any Learning OS or Mastery OS artifact.
+
+Note: this is the Learning OS product brand, which is distinct from the course-deliverable PRIMARY palette in the workspace palettes.md. This palette uses a darker navy and a warmer accent set, and it keeps cream. The user explicitly approved keeping this branding, including cream, for this product. The standing "cream is out of teaching and MedMasters" rule still applies to BIO 004, BIO 431, BIO 304, TBL Project Lab, Critical Care Grade Repair, and MedMasters course deliverables.
+
+## Typography
+- Display: Plus Jakarta Sans (h1 800, h2/h3 600).
+- Label / eyebrow / mono: DM Sans (500, 700), uppercase, letter-spaced, terra-dark.
+- Body emphasis / usage / serif: Lora, including italic.
+
+## Core palette
+- Navy: #0B1530 (primary text, headers)
+- Card navy: #1C2E4F
+- Near black: #060A18
+- Rust: #8B3A2E (hover #A0452F) — the "OS" accent in the wordmark, priority state
+- Terra: #C2734D; Terra-dark: #A0522D; Clay: #CE8166
+- Gold: #C9A14A (light #D9B065) — key accents, CTAs
+- Cream: #F5F1E8
+- White: #FFFFFF (cards); Off-white: #FAFAF9 (page background); Slate: #8C90A0
+
+## Mastery-state colors (never green for "completed" in course tools, but this product uses these state hues)
+- Secure: #2f6a4c on #e2efe8
+- Approaching: #8a5a16 on #f6ecd9
+- Developing: #A0522D on #f7e9e0
+- Priority: #8B3A2E on #f6e4e0
+- Insufficient evidence: #5a6070 on #eceef2
+
+## Form
+- Radii: 6 / 10 / 16 px.
+- Rest shadow: 0 1px 3px rgba(11,21,48,.08). Lift: 0 14px 34px -16px rgba(11,21,48,.30).
+- White cards on off-white page; cards lift on hover (translateY -2px + softer shadow). Thin 1px borders, navy or terra by context. No pastel tints, no decorative bookend bars.
+
+## Logo
+- Three-figure trefoil (gold, rust, navy or cream figures), reading as collaborative learners. Wordmark "Mastery OS" with "OS" in rust; small DM Sans uppercase tagline beneath.
+
+## Standing web-build rules (apply to every HTML deliverable)
+- Iframe height-sender (postMessage with id, ResizeObserver, load and resize listeners) before closing body.
+- target="_top" on internal and same-domain links; external links target="_blank" rel="noopener".
+- WCAG 2.2 AA floor, AAA where achievable. Semantic HTML, focus indicators, skip link, prefers-reduced-motion, keyboard operable, aria on dynamic and collapsible regions.
